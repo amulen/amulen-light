@@ -1,6 +1,8 @@
 {
-    "name": "flowcode/webrii-silex",
-    "description": "Description of project webrii_silex.",
+    "name": "amulen/amulen-light",
+    "description": "Silex based CMS.",
+    "license": "MIT",
+    "type": "project",
     "authors": [
         {
             "name": "Juan Manuel Agüero",
