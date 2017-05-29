@@ -1,0 +1,21 @@
+{% extends "base.html.twig" %}
+
+{% block body %}
+    <div class="page-header">
+        <h1>Acme
+            <small>Dashboard</small>
+        </h1>
+    </div>
+    <div class="bs-glyphicons">
+        <ul class="bs-glyphicons-list">
+
+            <li>
+                <a href="{{ path("test") }}" class="btn btn-primary">
+                    <i class="glyphicon glyphicon-bullhorn"></i>
+                    <span class="glyphicon-class">Ejemplo</span>
+                </a>
+            </li>
+
+        </ul>
+    </div>
+{% endblock %}

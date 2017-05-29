@@ -1,0 +1,170 @@
+/* 
+    Created on : Jul 20, 2014, 8:26:35 PM
+    Author     : Juan Manuel Agüero <jaguero@flowcode.com.ar>
+*/
+
+/* General */
+@font-face {
+    font-family: 'open_sanslight';
+    src: url('OpenSans-Light-webfont.eot');
+    src: url('OpenSans-Light-webfont.eot?#iefix') format('embedded-opentype'),
+        url('OpenSans-Light-webfont.woff') format('woff'),
+        url('OpenSans-Light-webfont.ttf') format('truetype'),
+        url('OpenSans-Light-webfont.svg#open_sanslight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+body{
+    font-family: 'open_sanslight', Calibri, Candara, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.42857143;
+    color: #333333;
+}
+html, body {
+    height: 96%;
+}
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 {
+    font-family: 'open_sanslight', Calibri, Candara, Arial, sans-serif;
+    font-weight: 300;
+    line-height: 1.1;
+    color: inherit;
+}
+
+
+/* Dashboard */
+.bs-glyphicons-list{
+    list-style: none outside none;
+}
+
+.bs-glyphicons a{
+    float:left;
+    width:25%;
+    height:115px;
+    padding:10px;
+    font-size:10px;
+    line-height:1.4;
+    text-align:center;
+    /*border:1px solid #fff;*/
+    text-decoration: none;
+    margin: 5px;
+}
+
+.bs-glyphicons .glyphicon{
+    margin-top: 15px;
+    margin-bottom:10px;
+    font-size:24px
+}
+
+.bs-glyphicons .glyphicon-class{
+    display: block;
+    text-align: center;
+    word-wrap: break-word;
+    font-size: 16px;
+}
+
+.bs-glyphicons a:hover{
+    /*    color:#fff;
+        background-color:#563d7c*/
+}
+
+/* reports */
+tr.depth-3 {
+    background-color: #b2dba1;
+}
+tr.depth-2 {
+    background-color: #d0e9c6;
+}
+tr.depth-1 {
+    background-color: #dff0d8;
+}
+tr.depth-2 td div {
+    margin-left: 10px;
+}
+tr.depth-1 td div {
+    margin-left: 20px;
+}
+tr.depth-0 td div {
+    margin-left: 30px;
+}
+.table-hover > tbody > tr:hover > td, .table-hover > tbody > tr:hover > th{
+    background-color: #85c66a;
+}
+tr.depth-2,tr.depth-1,tr.depth-0{
+    display: none;
+}
+.accountTable{
+    text-align: right;
+    font-size: 1.5em;
+    width: 70%;
+}
+.accountTable .totalRow{
+    border-top: 1px solid #dddddd;    
+}
+.accountTable td:first-child {
+    padding-right: 15px;
+    text-align: left;
+}
+.table.table-condensed tr:last-child {
+    border-bottom: 1px solid #dddddd;
+}
+table.table tr td {
+
+    cursor: default;
+}
+
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -4em;
+}
+.footer, .push {
+    height: 4em;
+}
+
+input.datatable-filter{
+    width: 100% !important;
+}
+
+.disponibilidad-table{
+    font-size: 0.9em;
+}
+
+.label-full-month{
+    color: white;
+    background-color: darkgreen;
+}
+.label-nothing{
+    color: #716b7a;
+    background-color: transparent;
+}
+.label-unavailable{
+    color: white;
+    background-color: #333333;
+}
+
+table.table.saldos tr td,table.table.saldos tr th{    
+    border: 1px solid #333333;
+}
+table.table.saldos tr.sumas{    
+border-top: 5px solid;
+height: 50px;
+}
+.accountTableSumas{
+    text-align: left;
+}
+.chancesForm {
+    padding-bottom: 20px;
+}
+.repot_balance_admin{
+    padding-left: 30px;
+}
+.exclude td {font-style: italic;
+color: lightcoral;
+}

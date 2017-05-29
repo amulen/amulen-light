@@ -1,0 +1,25 @@
+{
+    "name": "flowcode/webrii-silex",
+    "description": "Description of project webrii_silex.",
+    "authors": [
+        {
+            "name": "Juan Manuel Agüero",
+            "email": "jaguero@flowcode.com.ar"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "": "src/"
+        }
+    },
+    "require": {
+        "silex/silex": "~1.1",
+        "doctrine/dbal": "2.2.*",
+        "twig/twig": ">=1.8,<2.0-dev",
+        "symfony/twig-bridge": "~2.3",
+        "entea/silex-twig-simple-asset-extension": "v1.0.0",
+        "deralex/yaml-config-service-provider": "1.0.x-dev",
+        "monolog/monolog": ">=1.0.0",
+        "flowcode/excel-service-provider": "1.0.*@dev"
+    }
+}

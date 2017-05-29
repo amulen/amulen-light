@@ -1,0 +1,27 @@
+{% extends 'base.html.twig' %}
+
+{% block body -%}
+<div class="page-header">
+    <h1>Perfiles</h1>
+</div>
+<div>
+    <form class="form-horizontal" method="post" action="{{ app.request.basepath }}/login_check">
+        <div class="form-group">
+            <label class="control-label col-md-2">Elegí</label>
+            <div class="col-md-6">
+                <select name="profile" class="form-control">
+                    {% for profile_id, profile in profiles %}
+                    <option value="{{profile_id}}">{{ profile.NOMBRE }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-6">
+                <button type="submit" class="btn btn-primary">Elegir</button>
+            </div>
+        </div>
+    </form>
+</div>
+
+{% endblock %}
